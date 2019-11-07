@@ -28,9 +28,9 @@ import org.apache.pinot.common.metadata.segment.OfflineSegmentZKMetadata;
 import org.apache.pinot.common.metadata.segment.RealtimeSegmentZKMetadata;
 import org.apache.pinot.common.utils.CommonConstants;
 import org.apache.pinot.common.utils.JsonUtils;
-import org.apache.pinot.hadoop.job.ControllerRestApi;
-import org.apache.pinot.hadoop.job.DefaultControllerRestApi;
-import org.apache.pinot.hadoop.utils.PushLocation;
+import org.apache.pinot.ingestion.common.ControllerRestApi;
+import org.apache.pinot.ingestion.common.DefaultControllerRestApi;
+import org.apache.pinot.ingestion.utils.PushLocation;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
